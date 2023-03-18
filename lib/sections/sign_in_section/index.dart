@@ -82,24 +82,18 @@ class SignInSection extends StatelessWidget {
                               height: 40,
                               width: 40,
                               padding: EdgeInsets.all(10),
-                              decoration:
-                                  BoxDecoration(color: Colors.cyanAccent),
                             ),
                             Container(
                               child: SvgPicture.asset("/svgs/google.svg"),
                               height: 40,
                               width: 40,
                               padding: EdgeInsets.all(10),
-                              decoration:
-                                  BoxDecoration(color: Colors.cyanAccent),
                             ),
                             Container(
                               child: SvgPicture.asset("/svgs/twitter.svg"),
                               height: 40,
                               width: 40,
                               padding: EdgeInsets.all(10),
-                              decoration:
-                                  BoxDecoration(color: Colors.cyanAccent),
                             )
                           ]),
                     ),

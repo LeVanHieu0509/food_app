@@ -11,7 +11,7 @@ class HeaderScreen extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height * 0.2,
       alignment: Alignment.center,
-      child: Text("HeaderScreen"),
+      child: Image.asset("/imgs/header.jpg"),
     );
   }
 }

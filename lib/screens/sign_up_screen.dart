@@ -13,8 +13,10 @@ class SignUpScreen extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        title: Text("Sign Up"),
+        backgroundColor: Colors.white,
         leading: IconButton(
-          color: Colors.white,
+          color: Colors.green,
           icon: Icon(Icons.arrow_back_ios),
           onPressed: () {
             Navigator.pop(context);
