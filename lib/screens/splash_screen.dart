@@ -12,7 +12,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Future.delayed(new Duration(seconds: 1)).then((value) => {
           Navigator.pushNamedAndRemoveUntil(
-              context, SignInScreen.routeName, ModalRoute.withName('/'))
+              context, SignInScreen.routeName, ModalRoute.withName('/chat-gpt'))
         });
 
     return Splash();
