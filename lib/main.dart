@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/screens/chat_gpt.dart';
+import 'package:food_app/screens/home_page.dart';
 import 'package:food_app/screens/sign_in_screen.dart';
 import 'package:food_app/screens/sign_up_screen.dart';
 import 'package:food_app/screens/splash_screen.dart';
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         ChatScreen.routeName: (context) => const ChatScreen(),
         SignInScreen.routeName: (context) => const SignInScreen(),
         SignUpScreen.routeName: (context) => const SignUpScreen(),
+        HomePage.routeName: (context) => const HomePage(),
       },
     );
   }

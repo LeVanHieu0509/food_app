@@ -2,6 +2,7 @@ import 'dart:html';
 import 'dart:js';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:food_app/screens/home_page.dart';
 
 class ButtonCustom extends StatelessWidget {
   final String text;
@@ -19,8 +20,9 @@ class ButtonCustom extends StatelessWidget {
               color: Colors.green,
               borderRadius: BorderRadius.circular(20)),
           child: GestureDetector(
-              onTap: () {
-                print("ok");
+              onTap: () async {
+                Navigator.pushNamedAndRemoveUntil(context, HomePage.routeName,
+                    ModalRoute.withName('/home-page'));
               },
               child: Center(
                   child: Text(
